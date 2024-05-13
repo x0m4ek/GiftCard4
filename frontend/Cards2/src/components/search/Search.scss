@@ -48,22 +48,13 @@
             padding: 8px 16px;
             background: none;
             cursor: pointer;
-            border: 1px solid t.$white;
+            border: 1px solid t.$primary;
 
             p {
-                color: t.$white;
+                color: t.$primary;
                 font-size: 16px;
                 font-weight: 400;
             }
         }
-    }
-}
-
-@media screen and (max-width:850px) {
-    .search_ .tips .tip {
-        border-color: #3e3e3e;
-    }
-    .search_ .tips .tip p {
-        color: #3e3e3e ;
     }
 }
